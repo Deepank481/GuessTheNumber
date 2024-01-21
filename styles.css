@@ -1,0 +1,60 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.score-container {
+  margin-top: 20px;
+}
+
+.retro-text {
+  color: #ffd700; /* Gold color */
+}
+
+.retro-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #ffd700;
+}
+
+.retro-button {
+  background-color: #ffd700;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+  margin-right: 10px;
+}
+
+.retro-button:hover {
+  background-color: #c2a41e; /* Darker gold color on hover */
+}
+
+#message {
+  color: #e74c3c; /* Red color for error message */
+  font-weight: bold;
+}
+
+#score {
+  font-weight: bold;
+}
