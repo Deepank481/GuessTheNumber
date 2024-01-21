@@ -62,3 +62,15 @@ body {
 #score {
   font-weight: bold;
 }
+
+.retro-footer {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.retro-footer p {
+  margin: 0;
+}
