@@ -11,7 +11,7 @@ const showUserMessage = document.getElementById("message");
 const submitGuessBtn = document.getElementById("submit-guess-btn");
 
 submitGuessBtn.addEventListener("click", () => {
-  checkUserGuess(userGuess.textContent);
+  checkUserGuess(userGuess.value);
 });
 
 function checkUserGuess(guessedNumber) {
