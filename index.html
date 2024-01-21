@@ -9,7 +9,9 @@
   <body>
     <div class="container">
       <h1 class="retro-text">Guess the Number Game</h1>
-      <p class="retro-text">Guess a number between 1 and 10:</p>
+      <p class="retro-text" id="game-instruction">
+        Guess a number between 1 and 10:
+      </p>
       <input
         type="number"
         id="user-guess"
@@ -21,6 +23,7 @@
 
       <div class="score-container">
         <p class="retro-text">Scores: <span id="score">0</span></p>
+        <p class="retro-text">High Score: <span id="high-score">0</span></p>
         <p class="retro-text">
           Computer's Number: <span id="computer-number">?</span>
         </p>

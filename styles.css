@@ -50,6 +50,10 @@ body {
   background-color: #c2a41e; /* Darker gold color on hover */
 }
 
+.retro-button:disabled {
+  background-color: #c2a41e;
+}
+
 #message {
   color: #e74c3c; /* Red color for error message */
   font-weight: bold;
