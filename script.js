@@ -15,7 +15,6 @@ submitGuessBtn.addEventListener("click", () => {
 });
 
 function checkUserGuess(guessedNumber) {
-  console.log(guessedNumber);
   if (guessedNumber > 20 || guessedNumber < 1) {
     showUserMessage.innerText =
       "Invalid Input - The number should be between 1 and 20";
